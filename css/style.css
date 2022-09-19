@@ -263,7 +263,7 @@ transform: translate(250%,5%);
   transform: (-50%,-50%);
   background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: 100% 100%;
-  animation: slider 17s infinite linear;
+  animation: slider 12s infinite linear;
 }
 @keyframes slider{
   0%{background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
