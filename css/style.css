@@ -263,11 +263,18 @@ transform: translate(250%,5%);
   transform: (-50%,-50%);
   background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: 100% 100%;
-  animation: slider 9s infinite linear;
+  animation: slider 17s infinite linear;
 }
 @keyframes slider{
   0%{background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
-  35%{background-image: url('https://images.pexels.com/photos/1438248/pexels-photo-1438248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
-  75%{background-image: url('https://images.pexels.com/photos/1393996/pexels-photo-1393996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+  10%{background-image: url('https://images.pexels.com/photos/1438248/pexels-photo-1438248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+  20%{background-image: url('https://images.pexels.com/photos/1393996/pexels-photo-1393996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+  30%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/HICC-1-1-scaled.jpg');}
+  40%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2019/12/2-scaled.jpg');}
+  50%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/Shreyas-Joseph-K_MG_10932-2024x1349-1.jpg');}
+  60%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/Monica-Taruba_1_S_1-scaled.jpg');}
+  70%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/P-K-Navanith-Krishnan_M-scaled.jpg');}
+  80%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2022/05/Chenji-Ambica-1-scaled.jpg');}
+
 
 }
