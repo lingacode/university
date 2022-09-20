@@ -27,6 +27,7 @@ body {
   margin-left: auto;
   box-sizing: border-box;
   display: block;
+
 }
 
 .Parent1 {
@@ -186,7 +187,7 @@ body {
   float: left;
   width: 20%;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #fff;
   color: #b20000;
   height: 420px;
   margin-left: 30px;
@@ -195,7 +196,7 @@ body {
   float: left;
   width: 10%;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #fff;
   color: #b20000;
   height: 420px;
   margin-left: 30px;
@@ -204,7 +205,7 @@ body {
   float: left;
   width: 30%;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #fff;
   height: 420px;
   margin-left: 30px;
 }
@@ -212,15 +213,15 @@ body {
   float: left;
   width: 5%;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #fff;
   height: 420px;
   margin-left: 30px;
 }
-.column3 {
+.column4 {
   float: left;
   width: 15%;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #fff;
   height: 420px;
   margin-left: 30px;
 }
@@ -263,7 +264,7 @@ transform: translate(250%,5%);
   transform: (-50%,-50%);
   background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: 100% 100%;
-  animation: slider 12s infinite linear;
+  animation: slider 15s infinite linear;
 }
 @keyframes slider{
   0%{background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
@@ -275,6 +276,13 @@ transform: translate(250%,5%);
   60%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/Monica-Taruba_1_S_1-scaled.jpg');}
   70%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/P-K-Navanith-Krishnan_M-scaled.jpg');}
   80%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2022/05/Chenji-Ambica-1-scaled.jpg');}
-
-
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
 }
