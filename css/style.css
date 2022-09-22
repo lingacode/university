@@ -267,7 +267,7 @@ transform: translate(250%,5%);
   animation: slider 15s infinite linear;
 }
 @keyframes slider{
-  0%{background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+   0%{background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
   10%{background-image: url('https://images.pexels.com/photos/1438248/pexels-photo-1438248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
   20%{background-image: url('https://images.pexels.com/photos/1393996/pexels-photo-1393996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
   30%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2020/01/HICC-1-1-scaled.jpg');}
@@ -278,15 +278,9 @@ transform: translate(250%,5%);
   80%{background-image: url('https://uohyd.ac.in/wp-content/uploads/2022/05/Chenji-Ambica-1-scaled.jpg');}
 }
 .papun{
- padding-top: 3rem;
 width: 100%;
-padding-right: 15px;
-padding-left: 15px;
-margin-right: auto;
-margin-left: auto;
-box-sizing: border-box;
-display: block;
 height: 900px;
+background-color: green
 }
 #107550
 #14523b;
