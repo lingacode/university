@@ -268,7 +268,7 @@ body {
 
 .maindiv {
   width: 100%;
-  height: 469px;
+  height: 475px;
   position: relative;
   top: 25%;
   /* transform: (50%,-50%); */
@@ -359,3 +359,14 @@ body {
   position: relative;
   margin-left: 20%;
 }
+.linga{
+  height: 250px;
+  width: 100%;
+}
+.card{
+  height: 150px;
+  width: 100%;
+  background-color: burlywood;
+  box-shadow: 7px 5px 7px  1px green;
+}
+
