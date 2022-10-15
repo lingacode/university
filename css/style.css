@@ -439,9 +439,29 @@ main {
 .div5 {
   grid-row: 1/-1;
 }
+.inner2{
+  padding: 50px 120px;
+  width: 82%;
+  /* max-width: 1080px; */
+  margin: auto;
+  position: relative;
+   background-color: rgba(224,11,0,0.15);
+}
 
 .item{
   height: 700px;
   width: 100%;
   background-color: rgba(224,11,0,0.15);
 }
+/* margin-left: 15px; */
+/* color: #5e5e5e;
+    border-color: #5e5e5e;
+    background-color: #ffffff;
+    text-align: center;
+    float: left;
+    height: 35px;
+    width: 35px;
+    display: block;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%; */
