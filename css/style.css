@@ -440,7 +440,7 @@ main {
   grid-row: 1/-1;
 }
 .inner2{
-  padding: 50px 120px;
+  padding: 30px 120px;
   width: 82%;
   /* max-width: 1080px; */
   margin: auto;
@@ -497,7 +497,12 @@ section{
   opacity: 0.5;
 }
 .item1{
-  height: 600px;
+  height: 580px;
   width: 100%;
   background-color: black;
+}
+.item2{
+  height: 50px;
+  width: 100%;
+  background-color: #ba0000;
 }
