@@ -117,61 +117,57 @@ body {
   height: 9.5vh;
 }
 
-.navbar {
+/* .navbar {
   overflow: hidden;
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 2rem;
-}
+} */
 
-.navbar a {
+/* .navbar a {
   float: left;
   font-size: 13px;
   color: #b20000;
   text-align: center;
-  /* padding: 10px; */
   text-decoration: none;
   margin-top: -.2rem;
-  /* margin-left: 1rem; */
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
   margin-top: -1rem;
-}
+} */
 
 
-.dropdown .dropbtn {
+/* .dropdown .dropbtn {
   font-size: 12px;
   border: none;
   outline: none;
   color: #b20000;
-  /* padding: 14px; */
   background-color: inherit;
   font-family: inherit;
   margin: 0;
   margin-top: .9rem;
 
-}
+} */
 
-.dropbtn1 {
+/* .dropbtn1 {
   font-size: 12px;
   border: none;
   outline: none;
   color: #b20000;
-  /* padding: 10px; */
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 
-}
+} */
 
 /* .dropbtn {
   background-color: #fff;
 } */
 
-.dropdown-content {
+/* .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -179,26 +175,25 @@ body {
   left: 3rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
+} */
 
 
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 /* Create three equal columns that floats next to each other */
-.column {
+/* .column {
   float: left;
   width: 20%;
-  /* padding: 10px; */
   background-color: burlywood;
   color: #b20000;
   height: 420px;
   margin-left: 30px;
-}
+} */
 
-.column1 {
+/* .column1 {
   float: left;
   width: 10%;
   padding: 10px;
@@ -247,13 +242,75 @@ body {
 
 .column a:hover {
   background-color: #fff;
-}
+} */
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
+} */
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #b20000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+   
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color: #b20000;
+  padding: 14px 16px;
+   /* font-family: inherit; */
+  margin: 0;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration:none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
