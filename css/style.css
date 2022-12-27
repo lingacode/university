@@ -17,7 +17,7 @@ body {
 }
 
 .header2 {
-  height: 6vh;
+  /* height: 6vh; */
   min-width: 768px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -27,7 +27,15 @@ body {
   margin-left: auto;
   box-sizing: border-box;
   display: block;
-
+  z-index: 111;
+}
+.header2.sticky{
+  /* padding: 10px 0; */
+  width: 100%;
+  background: #b20000;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
+  transition: all0.5s ease;
+  position: fixed;
 }
 
 .Parent1 {
